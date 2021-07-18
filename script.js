@@ -2,7 +2,7 @@ let carousel = document.querySelector('.carousel');
 let list = carousel.querySelector('ul');
 let listElems = carousel.querySelectorAll('li');
 let position = 0;
-let width = 700;
+let width = 800;
 let count = 1;
 
 carousel.querySelector('.prev').onclick = function () {
